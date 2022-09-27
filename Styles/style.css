@@ -5,17 +5,13 @@ body {
 .grid-container {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: rgb(243, 234, 234);
   display: grid;
-  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr; */
+
   grid-template-rows: repeat(10, 1fr);
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   grid-gap: 24px;
   padding: 24px;
-}
-
-.grid-item {
-  background-color: brown;
 }
 
 .grid-item-1 {
